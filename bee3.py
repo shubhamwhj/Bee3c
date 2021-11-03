@@ -31,7 +31,16 @@ class Bee:
     def display(self):
         screen.blit(images["bee"],self.bee) 
 
+#Create the Pipe class
+
+    #Create the __init__() method, create top pipe, bottom pipe, gap 
+    
+    #Create a display function
+    
 bee=Bee()
+
+#Create the Pipe class object
+
 
 while True:    
     screen.fill((50,150,255))
@@ -52,7 +61,8 @@ while True:
         groundx=0
 
     bee.display()  
-     
+    #Call display() function to display the pipes.
+    
     screen.blit(images["base"],[groundx,550])
    
     pygame.display.update()
