@@ -68,6 +68,8 @@ while True:
     pygame.display.update()
     clock.tick(30)
     
+    #pygame.draw.rect(screen,(250,150,50),pygame.Rect(200,self.gap,100,100))
+    
     
     
     
